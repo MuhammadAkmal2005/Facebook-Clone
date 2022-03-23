@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Facebook | log in or sign up</title>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="fbfav.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            background-color: rgb(241, 242, 246);
+        }
+
+        #mainbody {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #div1 {
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            margin-top: 14%;
+            padding-left: 115px;
+        }
+
+        h2 {
+            font-weight: 400;
+            width: 500px;
+            padding: 0%;
+            padding-left: 30px;
+            font-size: 28px;
+        }
+
+        .classdiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #div2 {
+            background-color: white;
+            border: none;
+            margin-top: 10%;
+            margin-left: 75px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            /* box-sizing: border-box; */
+            padding: 20px 0 28px;
+            width: 396px;
+        }
+
+        /* form{
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 0%;
+} */
+        button {
+            justify-content: center;
+        }
+
+        #login {
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 354px;
+            color: white;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-top: 15px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        #signin {
+            background-color: #42b72a;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            width: 194px;
+            color: white;
+            font-weight: bold;
+            margin-left: 27.5%;
+            margin-top: 22px;
+            cursor: pointer;
+        }
+
+        input {
+            font-size: 17px;
+            width: 320px;
+            padding: 15px;
+            border-radius: 8px;
+            border-color: rgba(0, 0, 0, 0.1);
+            margin-left: 20px;
+        }
+
+        a {
+            margin-left: 32%;
+            color: #1877f2;
+            font-size: 14px;
+        }
+
+        hr {
+            margin-left: 32px;
+            margin-right: 28px;
+            opacity: 0.5;
+            margin-top: 25px;
+        }
+
+        #inp2 {
+            margin-top: 12px;
+        }
+
+        /* #lastp{
+    margin-top: 60%;
+} */
+    </style>
+</head>
+
+<body>
+    <section id="mainbody">
+        <div id="div1">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook" width="301.06px">
+            <h2>Facebook helps you connect and share with the people in your life.</h2>
+        </div>
+        <div id="div2" class="classdiv">
+            <form action="login">
+                <input type="text" placeholder="Email address or Phone number" name="username">
+                <input type="password" placeholder="Password" name="password" id="inp2">
+                <button id="login">Log In</button>
+                <a href="#index.html">Forgotten password?</a>
+                <hr>
+                <button id="signin">Create New Account</button>
+            </form>
+        </div>
+        <!-- <div class="classdiv">
+            <p id="lastp"><b>Create a Page</b> for a celebrity, brand or business.</p>
+        </div> -->
+    </section>
+</body>
+
+</html>
